@@ -282,7 +282,7 @@ namespace UnityLLMGather
                 // Match against the whole string, case-insensitive (common for paths)
                 return Regex.IsMatch(input, regexPattern, RegexOptions.IgnoreCase | RegexOptions.Singleline);
             }
-            catch (ArgumentException ex)
+            catch (System.ArgumentException ex)
             {
                 Debug.LogWarning($"[UnityLLMGather] Invalid regex pattern generated from glob '{pattern}': {regexPattern}. Error: {ex.Message}");
                 // Fallback to simple wildcard? Or just return false? Return false for safety.
