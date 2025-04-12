@@ -25,5 +25,6 @@
     "Scene"
   ],
   "type": "editorExtension",
-  "dependencies": {}
+  "dependencies": {},
+  "_fingerprint": "b97b7ab20272d442eb8eac1fcc0173a88f5c2508"
 }
