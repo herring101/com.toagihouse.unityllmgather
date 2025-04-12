@@ -1,0 +1,29 @@
+{
+  "name": "com.toagihouse.unityllmgather",
+  "version": "0.1.0",
+  "displayName": "Unity LLM Gather",
+  "description": "Gathers project files and active scene summary into a single text file, suitable for input to Large Language Models (LLMs). Includes customizable file filtering and scene object ignoring options.",
+  "unity": "2020.3",
+  "author": {
+    "name": "herring101",
+    "email": "herring101@outlook.jp",
+    "url": "https://toagihouse.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/herring101/com.toagihouse.unityllmgather.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "Editor",
+    "Utility",
+    "LLM",
+    "AI",
+    "Gather",
+    "Summary",
+    "Code",
+    "Scene"
+  ],
+  "type": "editorExtension",
+  "dependencies": {}
+}
